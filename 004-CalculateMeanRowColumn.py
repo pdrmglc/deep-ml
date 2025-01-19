@@ -36,7 +36,7 @@ def calculate_matrix_mean(matrix: list[list[float]], mode: str) -> list[float]:
 # Test cases
 
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-mode = 'row'
+mode = 'column'
 
 resultado = calculate_matrix_mean(matrix, mode) # Resultado esperado: [4.0, 5.0, 6.0]
 
